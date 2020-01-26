@@ -86,8 +86,7 @@
       "npm run lint"
     ],
     "./**/*.{css,scss}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "jest": {
