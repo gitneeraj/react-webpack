@@ -47,7 +47,8 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.[hash].js'
+    filename: 'main.[hash].js',
+    publicPath: '/'
   },
   stats: {
     children: false,
