@@ -5,6 +5,12 @@ module.exports = merge(common, {
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: './dist'
+    historyApiFallback: true,
+    port: 3000,
+    contentBase: './dist',
+    stats: {
+      children: false,
+      modules: false
+    }
   }
 })
