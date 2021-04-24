@@ -4,10 +4,10 @@ Starter kit app for react with webpack and babel
 
 ## Setup
 
-1. Clone this repo to your local machine
+1. Get the repo
 
 ```bash
-git clone https://github.com/gitneeraj/react-webpack.git
+npx degit gitneeraj/react-webpack react-webpack
 ```
 
 2. Change directory to newly cloned repo directory
